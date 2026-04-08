@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado del Proyecto Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <header>
+            <h1>ESTADO DEL PROYECTO</h1>
+            <p class="project-subtitle">Monitoreo de Progreso en Tiempo Real</p>
+        </header>
+
+        <section class="progress-section glass-panel">
+            <div class="progress-status">
+                <span class="status-text">Progreso General</span>
+                <span class="percent-text" id="percentText">0%</span>
+            </div>
+            <div class="main-progress-container">
+                <div class="progress-fill" id="progressFill">
+                    <div class="progress-glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="phases-section">
+            <div class="timeline-line"></div>
+            
+            <div class="phases-wrapper">
+                <div class="phase-card glass-panel" id="phase1">
+                    <div class="phase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                    </div>
+                    <div class="phase-content">
+                        <h3>1. Planificación y Diseño</h3>
+                        <p>Definición de requisitos y prototipado.</p>
+                        <span class="phase-status-label">Pendiente</span>
+                    </div>
+                    <div class="phase-badge"></div>
+                </div>
+
+                <div class="phase-card glass-panel" id="phase2">
+                    <div class="phase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                    </div>
+                    <div class="phase-content">
+                        <h3>2. Desarrollo</h3>
+                        <p>Codificación y construcción de la solución.</p>
+                        <span class="phase-status-label">Pendiente</span>
+                    </div>
+                    <div class="phase-badge"></div>
+                </div>
+
+                <div class="phase-card glass-panel" id="phase3">
+                    <div class="phase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    </div>
+                    <div class="phase-content">
+                        <h3>3. Pruebas y Ajustes</h3>
+                        <p>Control de calidad y corrección de errores.</p>
+                        <span class="phase-status-label">Pendiente</span>
+                    </div>
+                    <div class="phase-badge"></div>
+                </div>
+
+                <div class="phase-card glass-panel" id="phase4">
+                    <div class="phase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M13.13 22.19l-1.41-1.41 1.06-1.06a5 5 0 0 0 0-7.07l-1.06-1.06 1.41-1.41 1.06 1.06a7 7 0 0 1 0 9.9l-1.06 1.06zM17 14c-.81 0-1.54.31-2.1.8l-1.42-1.42A4.986 4.986 0 0 1 17 12c2.76 0 5 2.24 5 5s-2.24 5-5 5c-1.39 0-2.64-.57-3.56-1.5l1.41-1.41c.58.6 1.39.91 2.15.91a2.99 2.99 0 0 0 3-3 3 3 0 0 0-3-3zM9 13.59c-1.42.42-2.52 1.52-2.94 2.94L5 17c0-2.19 1.41-3.99 3.31-4.7L9 13.59zM10 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0-4c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6z"/></svg>
+                    </div>
+                    <div class="phase-content">
+                        <h3>4. Lanzamiento</h3>
+                        <p>Despliegue final y entrega del proyecto.</p>
+                        <span class="phase-status-label">Pendiente</span>
+                    </div>
+                    <div class="phase-badge"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
