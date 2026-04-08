@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    // ==========================================
-    // MODIFICA ESTE VALOR PARA EDITAR EL PROGRESO
-    // Debe ser un número entre 0 y 100
-    // ==========================================
+    
     const progresoActual = 15; 
 
     actualizarInterfazProgreso(progresoActual);
