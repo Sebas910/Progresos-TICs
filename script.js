@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     
-    const progresoActual = 15; 
+    const progresoActual = 25; 
 
     actualizarInterfazProgreso(progresoActual);
 });
